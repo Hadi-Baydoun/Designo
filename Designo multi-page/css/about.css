@@ -1,0 +1,614 @@
+/* About us */
+
+.about-us {
+    position: relative;
+  }
+  
+  .about-us .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e88069;
+    width: auto;
+    border: 1px solid transparent;
+    padding: 0em;
+    
+    
+  }
+  
+  .about-us .content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    background-image:  url("/assets/home/desktop/bg-pattern-hero-home.svg");
+    background-repeat: no-repeat;
+    
+  }
+  
+  .about-us .content h2,
+  .about-us .content p {
+    color: white;
+    max-width: 27.8125rem;
+    line-height: 1.5;
+    padding-bottom: 1em;
+  }
+
+  .about-us .about-img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    margin-top: -2px;
+  }
+  
+  .about-us .about-img img{
+    width: 100%;
+  }
+
+/* End About us */
+
+
+
+/*  World-class */
+
+.world {
+    position: relative;
+  }
+  
+  .world .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdf4f2;
+    width: auto;
+    border: 1px solid transparent;
+    padding: 0em;
+  }
+  
+  .world .content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    
+    
+  }
+  
+  .world .content h2 {
+    color: #e88069;
+    max-width: 27.8125rem;
+    line-height: 1.5;
+    padding-bottom: 1em;
+  }
+  
+  .world .content p {
+    color: #323036;
+    max-width: 27.8125rem;
+    line-height: 1.625;
+    padding-bottom: 1em;
+    font-family: Jost,sans-serif;
+    text-rendering: optimizeSpeed;
+  }
+
+  .world .world-img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    margin-top: -2px;
+  }
+  
+  .world .world-img img{
+    width: 100%;
+  }
+  
+  
+  
+
+  
+  /* End World-class */
+
+  /*  countries */
+
+.countries {
+    background-color: white;
+    padding: 2em;
+  }
+  
+  .countries .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .countries img{
+    background: linear-gradient(rgba(240, 242, 244, 0.5), white);
+    border-radius: 50%;
+    margin-bottom: 2em;
+  }
+
+  .country1, .country2, .country3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .countries .content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .countries .content h3{
+    font-size: 1.25rem;
+    letter-spacing: .25em;
+    line-height: 1.3;
+    padding-bottom: 1em;
+
+  }
+
+  .countries .content p{
+    line-height: 1.6rem;
+    padding-bottom: 3em;
+
+  }
+
+  .countries .content button {
+    color: white;
+    background-color: #e88069;
+    border: 1px solid transparent;
+    margin-top: 1em;
+    transition: background-color 0.6s ease;
+    margin-bottom: 4em;
+    letter-spacing: .0625em;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .countries .content button:hover{
+    background-color: #ffab98;
+    color: black;
+    cursor: pointer;
+  }
+
+  /* End countries */
+
+  /* Real-deal */
+
+  .real-deal {
+    position: relative;
+  }
+  
+  .real-deal .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fdf4f2;
+    width: auto;
+    border: 1px solid transparent;
+    padding: 0em;
+  }
+  
+  .real-deal .content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    
+    
+  }
+  
+  .real-deal .content h2 {
+    color: #e88069;
+    max-width: 27.8125rem;
+    line-height: 1.5;
+    padding-bottom: 1em;
+  }
+  
+  .real-deal .content p {
+    color: #323036;
+    max-width: 27.8125rem;
+    line-height: 1.625;
+    padding-bottom: 1em;
+    font-family: Jost,sans-serif;
+    text-rendering: optimizeSpeed;
+  }
+
+  .real-deal .real-img {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 0px;
+    margin-top: -2px;
+  }
+  
+  .real-deal .real-img img{
+    width: 100%;
+  }
+  /* End real-deal */
+
+
+@media screen and (min-width: 1025px)  {
+    /* CSS styles for desktop devices */
+    /* Learn More */
+
+.about-us {
+  position: relative;
+  padding: 5em 0em 3em 0em;
+}
+
+.about-us  .container {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: flex-start;
+  background-color: #e88069;
+  width: auto;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  
+}
+
+.about-us  .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 5em;
+  padding-bottom: 5em;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.about-us  .about-img img{
+  width: auto;
+  border-top-right-radius: 0.9375rem;
+  border-bottom-right-radius: 0.9375rem;
+  margin-right: -2px;
+  height: 24em;
+  object-fit: fill;
+
+}
+.about-us  .about-img {
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 0.9375rem;
+  width: auto; 
+}
+
+/* End Learn More */
+
+
+
+/*  World */
+.world {
+    background-color: #f0f2f4;
+    padding-bottom: 0em;
+    padding-top: 4em;
+  }
+  
+  .world .container {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid transparent;
+    border-radius: 0.9375rem;
+  }
+  
+  .world-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+    border-radius: 0.9375rem;
+  }
+  
+  .world-img img {
+    object-fit: fill;
+    width: auto;
+    border-top-left-radius: 0.9375rem;
+    border-bottom-left-radius: 0.9375rem;
+    
+  }
+  
+  .world .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em;
+    text-align: left;
+  }
+  
+  .world .content h2 {
+    margin-bottom: 1em;
+    
+}
+
+
+/* End World */
+
+/*  Countries */
+
+.countries{
+    margin-top: 5em;
+  }
+.countries .container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 1em;
+}
+
+
+
+/* End Countries */
+
+
+
+/*  real-deal */
+.real-deal {
+    background-color: #f0f2f4;
+    padding-bottom: 7em;
+    padding-top: 4em;
+  }
+  
+  .real-deal .container {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px solid transparent;
+    border-radius: 0.9375rem;
+  }
+  
+  .real-img {
+    display: flex;
+    justify-content: flex-start;
+    width: 25%;
+    border-radius: 0.9375rem;
+  }
+  
+  .real-img img {
+    object-fit: fill;
+    width: auto;
+    border-top-right-radius: 0.9375rem;
+    border-bottom-right-radius: 0.9375rem;
+    
+  }
+  
+  .real-deal .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2em;
+    text-align: left;
+    gap: 2em;
+  }
+  
+  .real-deal .content h2 {
+    margin-bottom: 0em;
+    text-align: left;
+    
+}
+}
+
+
+/* End real-deal */
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS styles for tablet devices */
+  .about-us {
+    position: relative;
+    padding: 5em 1.5rem 3em 1.5rem;
+  }
+  
+  .about-us .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e88069;
+    width: auto;
+    border: 1px solid transparent;
+    border-radius: 15px;
+   
+  }
+  
+  .about-us .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3em;
+    z-index: 1;
+    background-image: none;
+  }
+  
+  
+  .about-us .about-img img{
+    object-fit: fill;
+    width: 50em;
+    height: 20em;
+    border-top-right-radius: 0.9375rem;
+    border-top-left-radius: 0.9375rem;
+    
+  }
+  .about-us .about-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+  }
+  
+  /* End about us  */
+
+  .world {
+    background-color: #f0f2f4;
+    position: relative;
+    padding: 5em 1.5rem 3em 1.5rem;
+  }
+  
+  .world .container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 0.9375rem;
+  }
+  
+  .world-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .world-img img {
+    object-fit: fill;
+    height: 25em;
+    border-top-right-radius: 0.9375rem;
+    border-top-left-radius: 0.9375rem;
+    
+  }
+  
+  .world .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .world .content h2 {
+    margin-bottom: 1em;
+    
+}
+  
+ 
+  /*  countries */
+  
+  .countries .container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 1em;
+    
+  }
+
+  .country1, .country2, .country3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+  }
+
+  .countries .content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+  }
+ 
+
+  /* End countries */
+
+  .real-deal {
+    background-color: #f0f2f4;
+    position: relative;
+    padding: 5em 1.5rem 3em 1.5rem;
+  }
+  
+  .real-deal .container {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid transparent;
+    border-radius: 0.9375rem;
+  }
+  
+  .real-img {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .real-img img {
+    object-fit: fill;
+    height: 25em;
+    border-top-right-radius: 0.9375rem;
+    border-top-left-radius: 0.9375rem;
+    
+  }
+  
+  .real-deal .content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 2em;
+    text-align: center;
+  }
+  
+  .real-deal .content h2 {
+    margin-bottom: 1em;
+    
+}
+  
+  /* Talk More */
+  
+  
+  .talk-more .container {
+    display: flex;
+    flex-direction: column;
+    background-color: #e88069;
+    width: auto;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-image:  url("/assets/home/desktop/bg-pattern-hero-home.svg");
+    background-repeat: no-repeat;
+    
+  }
+  
+  
+  
+  .talk-more .content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3em;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .talk-more .content button {
+    color: black;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 1.5em 2.5em;
+    margin-top: 1em;
+    transition: background-color 0.6s ease;
+    margin-bottom: 4em;
+  }
+  /* End Talk More  */
+  
+ 
+    }
+
+
+
+
+
+
+

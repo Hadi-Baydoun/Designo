@@ -1,0 +1,376 @@
+/* About us */
+
+.contact-page {
+    position: relative;
+  }
+  
+  .contact-page .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e88069;
+    width: auto;
+    border: 1px solid transparent;
+    padding: 0em;
+    
+    
+  }
+  
+  .contact-page .content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 4em;
+    padding-bottom: 4em;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+    
+    
+  }
+  
+  .contact-page .content h2,
+  .contact-page .content p {
+    color: white;
+    max-width: 27.8125rem;
+    line-height: 1.5;
+    padding-bottom: 1em;
+  }
+
+  
+
+  .contact-page .container .content-right form{
+    display: flex;
+    flex-direction:column ;
+    gap: 1em;
+    background-color: transparent;
+    padding-bottom: 4em;
+    width: 20em;
+  }
+  
+  
+  .contact-page .container .content-right form input,.contact-page .container .content-right
+  form textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+    padding: 5px 0;
+  }
+  
+  .contact-page .container .content-right form input::placeholder,.contact-page .container .content-right 
+  form textarea::placeholder {
+    color: #f0f2f4;
+    opacity: 0.5;
+    font-size: 1.3em;
+  }
+  .contact-page .container .content-right form button {
+    color: black;
+    background-color: white;
+    border: 1px solid transparent;
+    border-radius: 0.5rem;
+    letter-spacing: .0625em;
+    padding: 1rem 1.5rem;
+    transition: background-color 0.6s ease;
+    margin-top: 1em;
+    width: 50%;
+  }
+  .contact-page .container .content-right form .contact-button{
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact-page .container .content-right form button:hover{
+    background-color: #ffab98;
+    color: white;
+    cursor: pointer;
+  }
+
+
+  /* Footer  */
+
+  .footer-contact {
+    position: relative;
+    background-color: #1c1b1d;
+    padding-bottom: 3em;
+    margin-top: 0em;
+  }
+  .footer-contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 3em;
+}
+.footer-contact .logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border-bottom: #f5f5f5;
+}
+
+.footer-contact .logo img {
+    height: auto;
+    width: 50%;
+}
+
+.footer-menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2em;
+  text-decoration: none;
+}
+
+.location ,.contact{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.location h3,.contact h3, .footer-menu h3{
+    font-weight: 700;
+    color: gray;
+    padding-bottom: 1em;
+    text-align: center;
+}
+.location p,.contact p{
+    text-align: center;
+    color: gray;
+    padding-bottom: 2em;
+}
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+
+}
+.socials:hover{
+    cursor: pointer;
+}
+  /* End Footer  */
+
+/* End countries2 */
+  
+
+
+@media screen and (min-width: 1025px)  {
+    /* CSS styles for desktop devices */
+    /* Learn More */
+
+.contact-page {
+  position: relative;
+  padding: 5em 0em 3em 0em;
+}
+
+.contact-page  .container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  background-color: #e88069;
+  width: auto;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  background-image:  url("/assets/home/desktop/bg-pattern-hero-home.svg");
+  background-repeat: no-repeat;
+  
+}
+
+.contact-page  .content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  padding-left: 5em;
+  padding-bottom: 5em;
+  padding-top: 7em;
+  width: 100%;
+  z-index: 1;
+  
+}
+
+.contact-page .container .content-right form{
+  display: flex;
+  flex-direction:column ;
+  gap: 1em;
+  background-color: transparent;
+  padding-bottom: 4em;
+  width: 40em;
+  padding-right: 5em;
+  padding-top: 3em;
+}
+.footer-contact .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0 auto;
+  padding: 0 20px;
+  padding-bottom: 3em;
+}
+
+.footer-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20em;
+}
+
+.footer-bottom{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 15em;
+}
+footer .logo {
+  display: flex;
+  justify-content: flex-start;
+  padding-top: 5em;
+  padding-bottom: 5em;
+  border-bottom: #f5f5f5;
+}
+
+.footer-menu{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+padding-bottom: 2em;
+padding-top: 2em;
+gap: 1em;
+}
+.location h3,.contact h3, .footer-menu h3{
+  font-weight: 700;
+  color: gray;
+  padding-bottom: 1em;
+  text-align: left;
+}
+.location p,.contact p{
+  text-align: left;
+  color: gray;
+  padding-bottom: 2em;
+}
+.socials{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+.socials img{
+  height: 25%;
+}
+
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS styles for tablet devices */
+  .contact-page {
+    position: relative;
+    padding: 5em 1.5rem 3em 1.5rem;
+  }
+  
+  .contact-page .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #e88069;
+    width: auto;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    padding-left: 5em;
+   
+  }
+  
+  .contact-page .content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    padding-bottom: 3em;
+    z-index: 1;
+    background-image: none;
+  }
+  .contact-page .container .content-right form{
+    display: flex;
+    flex-direction:column ;
+    gap: 1em;
+    background-color: transparent;
+    padding-bottom: 4em;
+    width: 30em;
+  }
+
+  
+  .contact-page .container .content-right form .contact-button{
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .footer-contact .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 0 20px;
+    padding-bottom: 3em;
+    padding-left: 2em;
+  }
+  
+  .footer-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8em;
+  }
+  
+  .footer-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5em;
+  }
+  footer .logo {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    border-bottom: #f5f5f5;
+  }
+  
+  .footer-menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-bottom: 2em;
+  padding-top: 2em;
+  gap: 1em;
+  }
+  
+  .location h3,.contact h3, .footer-menu h3{
+    font-weight: 700;
+    color: gray;
+    padding-bottom: 1em;
+    text-align: left;
+  }
+  .location p,.contact p{
+    text-align: left;
+    color: gray;
+    padding-bottom: 2em;
+  }
+  .socials{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  
+  }
+  .socials img{
+    height: 25%;
+  }
+  
+}
+
+
+
+
+
+
+
