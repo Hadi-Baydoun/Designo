@@ -10,6 +10,6 @@ To maintain a clean and organized codebase, I followed a modular approach by div
 
 I leveraged modern development tools, such as Git, to track changes, collaborate with others, and maintain version control. The repository contains all the necessary files and assets required to run the website locally or deploy it to a live server.
 
-Live Review:
+Live Review: https://designo-nu.vercel.app/home.html
 
 Front-end Mentor Challenge Link: https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT
