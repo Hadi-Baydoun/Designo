@@ -9,3 +9,7 @@ To ensure a seamless user experience, I employed modern web development techniqu
 To maintain a clean and organized codebase, I followed a modular approach by dividing the project into reusable components and utilizing appropriate CSS naming conventions. I also ensured the code's readability, maintainability, and scalability, making it easier for future developers to understand and extend the project.
 
 I leveraged modern development tools, such as Git, to track changes, collaborate with others, and maintain version control. The repository contains all the necessary files and assets required to run the website locally or deploy it to a live server.
+
+Live Review:
+
+Front-end Mentor Challenge Link: https://www.frontendmentor.io/challenges/designo-multipage-website-G48K6rfUT
